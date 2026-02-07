@@ -93,6 +93,8 @@ type GeneralOpenAIRequest struct {
 	WebSearch json.RawMessage `json:"web_search,omitempty"`
 	// doubao,zhipu_v4
 	THINKING json.RawMessage `json:"thinking,omitempty"`
+	// grok2api video generation
+	VideoConfig json.RawMessage `json:"video_config,omitempty"`
 	// pplx Params
 	SearchDomainFilter     json.RawMessage `json:"search_domain_filter,omitempty"`
 	SearchRecencyFilter    string          `json:"search_recency_filter,omitempty"`

@@ -248,14 +248,21 @@ var defaultModelRatio = map[string]float64{
 	"llama-3-sonar-large-32k-chat":   1 / 1000 * USD,
 	"llama-3-sonar-large-32k-online": 1 / 1000 * USD,
 	// grok
+	"grok-4":                1.5, // $3 / 1M tokens
+	"grok-4-0709":           1.5, // $3 / 1M tokens
+	"grok-4-0709-search":    2.0, // $4 / 1M tokens (with search)
 	"grok-3-beta":           1.5,
 	"grok-3-mini-beta":      0.15,
 	"grok-2":                1,
 	"grok-2-vision":         1,
+	"grok-2-image":          1, // image generation
 	"grok-beta":             2.5,
 	"grok-vision-beta":      2.5,
-	"grok-3-fast-beta":      2.5,
-	"grok-3-mini-fast-beta": 0.3,
+	"grok-3-fast-beta":       2.5,
+	"grok-3-mini-fast-beta":  0.3,
+	"grok-imagine-1.0-video": 15, // video generation
+	"grok-imagine-1.0":       5,  // image generation
+	"grok-4-mini":            0.5,
 	// submodel
 	"NousResearch/Hermes-4-405B-FP8":          0.8,
 	"Qwen/Qwen3-235B-A22B-Thinking-2507":      0.6,
